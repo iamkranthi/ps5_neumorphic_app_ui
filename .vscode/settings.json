@@ -1,0 +1,30 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+    "test": true,
+    "macos": true,
+    "linux": true,
+    ".dart_tool": true,
+    ".idea": true,
+    ".vscode": true,
+    "android": true,
+    "ios": true,
+    "windows": true,
+    "web": true,
+    ".gitignore": true,
+    ".metadata": true,
+    ".packages": true,
+    "analysis_options.yaml": true,
+    "ps5_neumorphic_app_ui.iml": true
+  },
+  "hide-files.files": []
+}
