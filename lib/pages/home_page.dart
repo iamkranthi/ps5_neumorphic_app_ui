@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:ps5_neumorphic_app_ui/items/item_widget.dart';
+import 'package:ps5_neumorphic_app_ui/items/items.dart';
+import 'package:ps5_neumorphic_app_ui/widgets/icons.dart';
 import 'package:ps5_neumorphic_app_ui/widgets/title_text.dart';
 import '../widgets/appbar.dart';
 import '../widgets/background.dart';
@@ -12,20 +15,23 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
-          Background(height: height * 0.8, width: width * 0.4),
+          Background(height: height * 0.8 , width: width * 0.4),
           Column(
+            
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-             const SizedBox(height: 50),
-            const   Appbar(),
-             const  SizedBox(height: 30),
-            const   TitleText(),
-            const   SizedBox(height: 25),
-          
-             Container(
-               height: 400,
-
-               child: Image.asset('assets/images/ps5.png')),
+              const SizedBox(height: 50),
+              const Appbar(),
+              const SizedBox(height: 30),
+              const TitleText(),
+              const SizedBox(height: 40),
+              const IconsWidget(),
+              const SizedBox(height: 30),
+              ItemsWidgets(
+                items: controllers,
+                screenHeight: height,
+                screenWidth: width,
+              ),
             ],
           )
         ],
@@ -33,4 +39,3 @@ class HomeScreen extends StatelessWidget {
     );
   }
 }
-
