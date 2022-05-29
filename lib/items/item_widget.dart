@@ -65,7 +65,7 @@ class ItemsWidgets extends StatelessWidget {
                 ),
                 Positioned(
                   right: 26,
-                  bottom: 286,
+                 top: 25,
                   child: Image.asset(
                     'assets/images/playstation-logo.png',
                    
