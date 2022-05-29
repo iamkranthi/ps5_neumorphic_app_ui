@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:ps5_neumorphic_app_ui/items/item_widget.dart';
 import 'package:ps5_neumorphic_app_ui/items/items.dart';
+import 'package:ps5_neumorphic_app_ui/widgets/bottom_bar.dart';
 import 'package:ps5_neumorphic_app_ui/widgets/icons.dart';
 import 'package:ps5_neumorphic_app_ui/widgets/title_text.dart';
 import '../widgets/appbar.dart';
@@ -15,9 +16,8 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
-          Background(height: height * 0.8 , width: width * 0.4),
+          Background(height: height * 0.8, width: width * 0.4),
           Column(
-            
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const SizedBox(height: 50),
@@ -32,6 +32,9 @@ class HomeScreen extends StatelessWidget {
                 screenHeight: height,
                 screenWidth: width,
               ),
+              const Spacer(),
+              const BottomBar(),
+              const SizedBox(height: 30),
             ],
           )
         ],
