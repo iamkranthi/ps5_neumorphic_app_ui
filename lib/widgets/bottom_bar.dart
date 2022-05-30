@@ -28,7 +28,7 @@ class _BottomBarState extends State<BottomBar> {
         borderRadius: 24,
         depth: 40,
         color: ConstantColors.cardcolor,
-      spread: 6,
+        spread: 6,
         child: Padding(
           padding: const EdgeInsets.symmetric(vertical: 8),
           child: Row(
@@ -38,21 +38,34 @@ class _BottomBarState extends State<BottomBar> {
                 icon: CupertinoIcons.home,
                 tite: 'Home',
                 isSelected: selectedIndex == 0,
+                onTap: () {
+                  onItemTapped(0);
+                },
               ),
-                BarItem(
+              BarItem(
                 icon: CupertinoIcons.person,
                 tite: 'Profile',
                 isSelected: selectedIndex == 1,
+                onTap: () {
+                  onItemTapped(1);
+                  
+                },
               ),
-                BarItem(
+              BarItem(
                 icon: CupertinoIcons.settings,
                 tite: 'Settings',
                 isSelected: selectedIndex == 2,
+                onTap: () {
+                  onItemTapped(2);
+                },
               ),
-                BarItem(
+              BarItem(
                 icon: CupertinoIcons.bookmark_fill,
                 tite: 'Wishlist',
                 isSelected: selectedIndex == 3,
+                onTap: () {
+                  onItemTapped(3);
+                },
               ),
             ],
           ),
