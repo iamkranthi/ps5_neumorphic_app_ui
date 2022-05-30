@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 import 'package:ps5_neumorphic_app_ui/colors/constantcolors.dart';
 
@@ -7,19 +5,20 @@ class BarItem extends StatelessWidget {
   final IconData icon;
   final String tite;
   final bool isSelected;
- final void Function()?   onTap;
+  final void Function()? onTaped;
 
   const BarItem({
     Key? key,
     required this.icon,
     required this.tite,
-    required this.isSelected, required this.onTap,
+    required this.isSelected,
+    required this.onTaped,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: onTap,
+      onTap: onTaped,
       child: Container(
         padding: const EdgeInsets.symmetric(horizontal: 9),
         decoration: BoxDecoration(

@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:ps5_neumorphic_app_ui/items/items.dart';
+import 'package:ps5_neumorphic_app_ui/screens/controlle_screen.dart';
+
+import '../screens/settings_screen.dart';
 
 class IconsWidget extends StatefulWidget {
   const IconsWidget({Key? key}) : super(key: key);
@@ -14,12 +18,13 @@ class _IconsWidgetState extends State<IconsWidget> {
       padding: const EdgeInsets.only(left: 10.0),
       child: Row(
         children: [
-          Material(
-            elevation: 10,
-            borderRadius: BorderRadius.circular(8),
-            child: InkWell(
-              splashColor: Colors.lightBlueAccent,
-              onTap: () {},
+          InkWell(
+            onTap: (){
+   Navigator.of(context).push(MaterialPageRoute(builder: (context) =>const SettingsScreen()));
+            },
+            child: Material(
+              elevation: 10,
+              borderRadius: BorderRadius.circular(8),
               child: Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(8),
@@ -36,22 +41,29 @@ class _IconsWidgetState extends State<IconsWidget> {
           const SizedBox(
             width: 35,
           ),
-          Material(
-            elevation: 10,
-            borderRadius: BorderRadius.circular(8),
-            child: InkWell(
-              splashColor: Colors.lightBlueAccent,
-              onTap: () {},
-              child: Container(
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(8),
-                  border: Border.all(
-                    color: Colors.white,
-                    width: 2,
+          InkWell(
+            onTap: (){
+                Navigator.of(context).push(MaterialPageRoute(builder: (context) =>ControllerScreen()));
+            },
+            child: Material(
+              elevation: 10,
+              borderRadius: BorderRadius.circular(8),
+              child: InkWell(
+                splashColor: Colors.lightBlueAccent,
+                onTap: () {
+                  
+                },
+                child: Container(
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(8),
+                    border: Border.all(
+                      color: Colors.white,
+                      width: 2,
+                    ),
                   ),
+                  height: 55,
+                  child: Image.asset('assets/images/gamepad.png'),
                 ),
-                height: 55,
-                child: Image.asset('assets/images/gamepad.png'),
               ),
             ),
           ),

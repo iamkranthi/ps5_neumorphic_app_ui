@@ -3,6 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:ps5_neumorphic_app_ui/colors/constantcolors.dart';
 import 'package:ps5_neumorphic_app_ui/items/bottom_bar_item.dart';
+import 'package:ps5_neumorphic_app_ui/screens/settings_screen.dart';
 
 class BottomBar extends StatefulWidget {
   const BottomBar({Key? key}) : super(key: key);
@@ -38,7 +39,7 @@ class _BottomBarState extends State<BottomBar> {
                 icon: CupertinoIcons.home,
                 tite: 'Home',
                 isSelected: selectedIndex == 0,
-                onTap: () {
+                onTaped: () {
                   onItemTapped(0);
                 },
               ),
@@ -46,24 +47,28 @@ class _BottomBarState extends State<BottomBar> {
                 icon: CupertinoIcons.person,
                 tite: 'Profile',
                 isSelected: selectedIndex == 1,
-                onTap: () {
+                onTaped: () {
                   onItemTapped(1);
-                  
                 },
               ),
-              BarItem(
-                icon: CupertinoIcons.settings,
-                tite: 'Settings',
-                isSelected: selectedIndex == 2,
+              InkWell(
                 onTap: () {
-                  onItemTapped(2);
+                 
                 },
+                child: BarItem(
+                  icon: CupertinoIcons.settings,
+                  tite: 'Settings',
+                  isSelected: selectedIndex == 2,
+                  onTaped: () {
+                    onItemTapped(2);
+                  },
+                ),
               ),
               BarItem(
                 icon: CupertinoIcons.bookmark_fill,
                 tite: 'Wishlist',
                 isSelected: selectedIndex == 3,
-                onTap: () {
+                onTaped: () {
                   onItemTapped(3);
                 },
               ),
