@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ps5_neumorphic_app_ui/items/items.dart';
-import 'package:ps5_neumorphic_app_ui/screens/controlle_screen.dart';
-
+import '../screens/game_screen.dart';
+import '../screens/mouse_screen.dart';
 import '../screens/settings_screen.dart';
 
 class IconsWidget extends StatefulWidget {
@@ -19,9 +18,6 @@ class _IconsWidgetState extends State<IconsWidget> {
       child: Row(
         children: [
           InkWell(
-            onTap: (){
-   Navigator.of(context).push(MaterialPageRoute(builder: (context) =>const SettingsScreen()));
-            },
             child: Material(
               elevation: 10,
               borderRadius: BorderRadius.circular(8),
@@ -42,16 +38,15 @@ class _IconsWidgetState extends State<IconsWidget> {
             width: 35,
           ),
           InkWell(
-            onTap: (){
-                Navigator.of(context).push(MaterialPageRoute(builder: (context) =>ControllerScreen()));
-            },
+            onTap: () {},
             child: Material(
               elevation: 10,
               borderRadius: BorderRadius.circular(8),
               child: InkWell(
                 splashColor: Colors.lightBlueAccent,
                 onTap: () {
-                  
+                  Navigator.of(context).push(MaterialPageRoute(
+                      builder: (context) => const SettingsScreen()));
                 },
                 child: Container(
                   decoration: BoxDecoration(
@@ -75,7 +70,10 @@ class _IconsWidgetState extends State<IconsWidget> {
             borderRadius: BorderRadius.circular(8),
             child: InkWell(
               splashColor: Colors.lightBlueAccent,
-              onTap: () {},
+              onTap: () {
+                Navigator.of(context).push(MaterialPageRoute(
+                    builder: (context) => const GameScreen()));
+              },
               child: Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(8),
@@ -97,7 +95,10 @@ class _IconsWidgetState extends State<IconsWidget> {
             borderRadius: BorderRadius.circular(8),
             child: InkWell(
               splashColor: Colors.lightBlueAccent,
-              onTap: () {},
+              onTap: () {
+                Navigator.of(context).push(MaterialPageRoute(
+                    builder: (context) => const MouseScreen()));
+              },
               child: Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(8),

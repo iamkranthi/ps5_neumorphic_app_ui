@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class ControllerScreen extends StatelessWidget {
-  const ControllerScreen({Key? key}) : super(key: key);
+class GameScreen extends StatelessWidget {
+  const GameScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return  const Scaffold(
       body: Center(
-        child: Text("Settings screen"),
+        child: Text("Game screen"),
       ),
     );
 
