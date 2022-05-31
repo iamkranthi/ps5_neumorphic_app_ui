@@ -1,7 +1,5 @@
-import 'package:clay_containers/clay_containers.dart';
 import 'package:flutter/material.dart';
-import 'package:ps5_neumorphic_app_ui/colors/constantcolors.dart';
-
+import 'package:ps5_neumorphic_app_ui/imports.dart';
 class Appbar extends StatelessWidget {
   const Appbar({Key? key}) : super(key: key);
 

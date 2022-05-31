@@ -1,11 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ps5_neumorphic_app_ui/items/item_widget.dart';
-import 'package:ps5_neumorphic_app_ui/items/items.dart';
-import 'package:ps5_neumorphic_app_ui/widgets/bottom_bar.dart';
-import 'package:ps5_neumorphic_app_ui/widgets/icons.dart';
-import 'package:ps5_neumorphic_app_ui/widgets/title_text.dart';
-import '../widgets/appbar.dart';
-import '../widgets/background.dart';
+import 'package:ps5_neumorphic_app_ui/imports.dart';
+
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);

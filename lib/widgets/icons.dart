@@ -1,8 +1,5 @@
+import 'package:ps5_neumorphic_app_ui/imports.dart';
 import 'package:flutter/material.dart';
-import '../screens/game_screen.dart';
-import '../screens/mouse_screen.dart';
-import '../screens/settings_screen.dart';
-
 class IconsWidget extends StatefulWidget {
   const IconsWidget({Key? key}) : super(key: key);
 
@@ -18,6 +15,10 @@ class _IconsWidgetState extends State<IconsWidget> {
       child: Row(
         children: [
           InkWell(
+            onTap: () {
+              Navigator.of(context).push(MaterialPageRoute(
+                  builder: (context) => const SettingsScreen()));
+            },
             child: Material(
               elevation: 10,
               borderRadius: BorderRadius.circular(8),
@@ -46,7 +47,7 @@ class _IconsWidgetState extends State<IconsWidget> {
                 splashColor: Colors.lightBlueAccent,
                 onTap: () {
                   Navigator.of(context).push(MaterialPageRoute(
-                      builder: (context) => const SettingsScreen()));
+                      builder: (context) => const ControllerScreen()));
                 },
                 child: Container(
                   decoration: BoxDecoration(

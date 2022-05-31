@@ -1,9 +1,6 @@
-import 'package:clay_containers/clay_containers.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:ps5_neumorphic_app_ui/colors/constantcolors.dart';
-import 'package:ps5_neumorphic_app_ui/items/bottom_bar_item.dart';
-import 'package:ps5_neumorphic_app_ui/screens/settings_screen.dart';
+import 'package:ps5_neumorphic_app_ui/imports.dart';
 
 class BottomBar extends StatefulWidget {
   const BottomBar({Key? key}) : super(key: key);
@@ -52,9 +49,7 @@ class _BottomBarState extends State<BottomBar> {
                 },
               ),
               InkWell(
-                onTap: () {
-                 
-                },
+                onTap: () {},
                 child: BarItem(
                   icon: CupertinoIcons.settings,
                   tite: 'Settings',
