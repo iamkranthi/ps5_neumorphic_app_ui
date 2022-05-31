@@ -15,6 +15,6 @@ class Controller extends Item {
 }
 
 final controllers = [
-  Controller('assets/images/ps5.png', 'Dual Sense', 'Black Version '),
-  Controller('assets/images/ps5.png', 'Dual Sense', 'Blue version'),
+  Controller('assets/images/card_images/ps5.png', 'Dual Sense', 'Black Version '),
+  Controller('assets/images/card_images/ps5.png', 'Dual Sense', 'Blue version'),
 ];

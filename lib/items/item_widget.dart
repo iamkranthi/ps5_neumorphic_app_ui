@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:ps5_neumorphic_app_ui/colors/constantcolors.dart';
 import 'package:ps5_neumorphic_app_ui/items/item_card_shape.dart';
 import 'package:ps5_neumorphic_app_ui/items/items.dart';
-
-
 class ItemsWidgets extends StatelessWidget {
   final List<Item> items;
   final double screenWidth, screenHeight;
@@ -67,7 +65,7 @@ class ItemsWidgets extends StatelessWidget {
                   right: 26,
                  top: 25,
                   child: Image.asset(
-                    'assets/images/playstation-logo.png',
+                    'assets/images/icons/playstation-logo.png',
                    
                     height: 50,
                     width: 50,

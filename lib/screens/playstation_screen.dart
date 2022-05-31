@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../imports.dart';
 
-class GameScreen extends StatelessWidget {
-  const GameScreen({Key? key}) : super(key: key);
+class PlayStationScreen extends StatelessWidget {
+  const PlayStationScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -12,14 +12,13 @@ class GameScreen extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
-           Background(height: height * 0.4, width: width ),
+          Background(height: height * 0.4, width: width ),
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              const SizedBox(height: 70),
-              const Appbar(),
-             Image.asset('assets/images/icon_images/ps5_icons.png'),
-              
+            children:  [
+             const SizedBox(height: 70),
+             const Appbar(),
+              Image.asset('assets/images/icon_images/ps5_icons.png'),
             ],
           ),
         ],

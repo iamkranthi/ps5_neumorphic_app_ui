@@ -14,8 +14,9 @@ class Background extends StatelessWidget {
       child:const ClipRRect(
         borderRadius: BorderRadius.only(bottomLeft:Radius.circular(20)),
         child:ColoredBox(
-          color: ConstantColors.blackcolor
-        )
+          color: ConstantColors.blackcolor,
+          
+        ),
       ),
     );
   }

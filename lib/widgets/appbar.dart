@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ps5_neumorphic_app_ui/imports.dart';
+
 class Appbar extends StatelessWidget {
   const Appbar({Key? key}) : super(key: key);
 
@@ -14,6 +15,7 @@ class Appbar extends StatelessWidget {
             height: 50,
             width: 50,
             depth: 20,
+            spread: 0.1,
             borderRadius: 25,
             curveType: CurveType.concave,
             child: Container(

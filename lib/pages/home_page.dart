@@ -18,7 +18,7 @@ class HomeScreen extends StatelessWidget {
               const SizedBox(height: 50),
               const Appbar(),
               const SizedBox(height: 30),
-              const TitleText(),
+              const TitleText(titletext: 'Featured', subtitletext: 'Products', choosecolor: ConstantColors.blackcolor,),
               const SizedBox(height: 40),
               const IconsWidget(),
               const SizedBox(height: 30),

@@ -17,7 +17,7 @@ class _IconsWidgetState extends State<IconsWidget> {
           InkWell(
             onTap: () {
               Navigator.of(context).push(MaterialPageRoute(
-                  builder: (context) => const SettingsScreen()));
+                  builder: (context) => const PlayStationScreen()));
             },
             child: Material(
               elevation: 10,
@@ -30,13 +30,13 @@ class _IconsWidgetState extends State<IconsWidget> {
                     width: 2,
                   ),
                 ),
-                height: 50,
-                child: Image.asset('assets/images/settings.png'),
+                height: 60,
+                child: Image.asset('assets/images/icons/playstation_icon.png'),
               ),
             ),
           ),
           const SizedBox(
-            width: 35,
+            width: 30,
           ),
           InkWell(
             onTap: () {},
@@ -58,7 +58,7 @@ class _IconsWidgetState extends State<IconsWidget> {
                     ),
                   ),
                   height: 55,
-                  child: Image.asset('assets/images/gamepad.png'),
+                  child: Image.asset('assets/images/icons/gamepad.png'),
                 ),
               ),
             ),
@@ -84,7 +84,7 @@ class _IconsWidgetState extends State<IconsWidget> {
                   ),
                 ),
                 height: 55,
-                child: Image.asset('assets/images/game_screen.png'),
+                child: Image.asset('assets/images/icons/game_screen.png'),
               ),
             ),
           ),
@@ -109,7 +109,7 @@ class _IconsWidgetState extends State<IconsWidget> {
                   ),
                 ),
                 height: 55,
-                child: Image.asset('assets/images/mouse.png'),
+                child: Image.asset('assets/images/icons/headphones.png'),
               ),
             ),
           ),
