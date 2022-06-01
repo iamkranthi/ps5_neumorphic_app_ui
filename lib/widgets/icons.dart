@@ -73,7 +73,7 @@ class _IconsWidgetState extends State<IconsWidget> {
               splashColor: Colors.lightBlueAccent,
               onTap: () {
                 Navigator.of(context).push(MaterialPageRoute(
-                    builder: (context) => const GameScreen()));
+                    builder: (context) => const CameraScreen()));
               },
               child: Container(
                 decoration: BoxDecoration(
@@ -84,7 +84,7 @@ class _IconsWidgetState extends State<IconsWidget> {
                   ),
                 ),
                 height: 55,
-                child: Image.asset('assets/images/icons/game_screen.png'),
+                child: Image.asset('assets/images/icons/camera.png'),
               ),
             ),
           ),

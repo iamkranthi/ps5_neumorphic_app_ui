@@ -10,7 +10,7 @@ export 'widgets/background.dart';
 export 'package:clay_containers/clay_containers.dart';
 export 'package:ps5_neumorphic_app_ui/items/bottom_bar_item.dart';
 export 'package:ps5_neumorphic_app_ui/screens/controller_screen.dart';
-export 'screens/game_screen.dart';
+export 'screens/camera_screen.dart';
 export 'screens/headphones_screen.dart';
 export 'screens/playstation_screen.dart';
 export '';
