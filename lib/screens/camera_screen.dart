@@ -19,7 +19,14 @@ class CameraScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const SizedBox(height: 50),
-              const Appbar(firstIcon: Icons.arrow_back_ios_new_rounded,),
+              GestureDetector(
+                  onTap: () {
+                    Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) => const HomeScreen()));
+                  },
+                  child: const Appbar(
+                    firstIcon: Icons.arrow_back_ios_new_rounded, secondIcon: Icons.group_work_rounded,
+                  )),
               Image.asset(
                 'assets/images/icon_images/ps5_icons.png',
                 scale: 5.4,

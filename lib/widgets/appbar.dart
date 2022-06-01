@@ -3,7 +3,9 @@ import 'package:ps5_neumorphic_app_ui/imports.dart';
 
 class Appbar extends StatelessWidget {
   final IconData firstIcon;
-  const Appbar({Key? key, required this.firstIcon}) : super(key: key);
+  final IconData secondIcon;
+  const Appbar({Key? key, required this.firstIcon, required this.secondIcon})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -23,10 +25,6 @@ class Appbar extends StatelessWidget {
               decoration: BoxDecoration(
                 border: Border.all(color: Colors.transparent, width: 2),
               ),
-              // child: const Icon(
-              //   Icons.menu,
-              //   color: ConstantColors.blackcolor,
-              // ),
               child: Icon(
                 firstIcon,
                 color: ConstantColors.blackcolor,
@@ -45,8 +43,8 @@ class Appbar extends StatelessWidget {
               decoration: BoxDecoration(
                 border: Border.all(color: Colors.transparent, width: 2),
               ),
-              child: const Icon(
-                Icons.shopping_cart_outlined,
+              child: Icon(
+                secondIcon,
                 color: ConstantColors.whitecolor,
               ),
             ),

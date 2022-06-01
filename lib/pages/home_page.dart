@@ -16,7 +16,7 @@ class HomeScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const SizedBox(height: 50),
-              const Appbar(firstIcon: Icons.menu,),
+              const Appbar(firstIcon: Icons.menu, secondIcon:  Icons.shopping_cart_outlined,),
               const SizedBox(height: 30),
               const TitleText(titletext: 'Featured', subtitletext: 'Products', choosecolor: ConstantColors.blackcolor,),
               const SizedBox(height: 40),
