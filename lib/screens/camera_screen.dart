@@ -30,8 +30,8 @@ class CameraScreen extends StatelessWidget {
                 color: ConstantColors.cardcolor,
               ),
               const TitleText(
-                titletext: 'Dual',
-                subtitletext: 'Sense',
+                titletext: 'HD',
+                subtitletext: 'Camera',
                 choosecolor: Colors.white,
               ),
               const SizedBox(
@@ -61,7 +61,7 @@ class CameraScreen extends StatelessWidget {
                     size: 50,
                   ),
                   Text(
-                    'Haptic feedback    ',
+                    '1080p Capture      ',
                     style: TextStyle(
                       fontFamily: 'Nunito',
                       fontSize: 14,
@@ -72,7 +72,7 @@ class CameraScreen extends StatelessWidget {
                     size: 50,
                   ),
                   Text(
-                    'Futuristic design    ',
+                    'Built in stand    ',
                     style: TextStyle(
                       fontFamily: 'Nunito',
                       fontSize: 14,
@@ -91,7 +91,7 @@ class CameraScreen extends StatelessWidget {
                     size: 50,
                   ),
                   Text(
-                    'Type C-fast charging ',
+                    'Background remover ',
                     style: TextStyle(
                       fontFamily: 'Nunito',
                       fontSize: 14,
@@ -102,7 +102,7 @@ class CameraScreen extends StatelessWidget {
                     size: 50,
                   ),
                   Text(
-                    'Built in microphone',
+                    'wide-angle lenses',
                     style: TextStyle(
                       fontFamily: 'Nunito',
                       fontSize: 14,
@@ -110,14 +110,18 @@ class CameraScreen extends StatelessWidget {
                   ),
                 ],
               ),
+              const SizedBox(
+                height: 40,
+              ),
               const Padding(
-                padding: EdgeInsets.all(13.0),
+                padding: EdgeInsets.all(24.0),
                 child: Text(
-                  'Discover a deeper, highly immersive gaming experience with the innovative new PS5™ controller, featuring haptic feedback and dynamic trigger effects2. The DualSense wireless controller also includes a built-in microphone and create button, all integrated into an iconic, comfortable design.',
+                  'Featuring dual lenses for 1080p capture and a built-in stand, the HD camera works seamlessly with the PS5 consoles background removal tools to put you in the spotlight.',
                   style: TextStyle(
-                      fontSize: 15,
-                      fontWeight: FontWeight.w500,
-                      wordSpacing: 2),
+                    fontSize: 15,
+                    fontWeight: FontWeight.w500,
+                    wordSpacing: 2,
+                  ),
                 ),
               )
             ],
