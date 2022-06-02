@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ps5_neumorphic_app_ui/pages/home_page.dart';
+
+import 'package:ps5_neumorphic_app_ui/pages/splash_screen.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: const HomeScreen(),
+      home: const SplashScreen(),
     );
   }
 }

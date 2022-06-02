@@ -24,7 +24,8 @@
     ".metadata": true,
     ".packages": true,
     "analysis_options.yaml": true,
-    "ps5_neumorphic_app_ui.iml": true
+    "ps5_neumorphic_app_ui.iml": true,
+    "build": true
   },
   "hide-files.files": []
 }

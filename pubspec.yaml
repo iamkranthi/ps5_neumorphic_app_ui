@@ -35,6 +35,7 @@ dependencies:
   flutter_bloc: ^8.0.1
   flutter_lints: ^2.0.1
   get: ^4.6.5
+  lottie: ^1.3.0
   page_transition: ^2.0.5
 
 dev_dependencies:
@@ -54,6 +55,7 @@ flutter:
     - assets/images/icons/
     - assets/images/card_images/
     - assets/images/icon_images/
+    - assets/lottie/
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
