@@ -66,7 +66,7 @@ class PlayStationScreen extends StatelessWidget {
                 children: const [
                   Icon(
                     CupertinoIcons.arrowtriangle_up_circle_fill,
-                    size: 45,
+                    size: 25,
                   ),
                   Text(
                     '4K resolution at 120FPS',
@@ -77,7 +77,7 @@ class PlayStationScreen extends StatelessWidget {
                   ),
                   Icon(
                     CupertinoIcons.smallcircle_fill_circle_fill,
-                    size: 45,
+                    size: 25,
                   ),
                   Text(
                     '3.5GHz clock speed     ',
@@ -96,7 +96,7 @@ class PlayStationScreen extends StatelessWidget {
                 children: const [
                   Icon(
                     CupertinoIcons.stop_circle_fill,
-                    size: 45,
+                    size: 25,
                   ),
                   Text(
                     'ultra-high speed SSD',
@@ -107,7 +107,7 @@ class PlayStationScreen extends StatelessWidget {
                   ),
                   Icon(
                     CupertinoIcons.xmark_circle_fill,
-                    size: 45,
+                    size: 25,
                   ),
                   Text(
                     'Game boost available',

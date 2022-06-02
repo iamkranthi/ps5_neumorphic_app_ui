@@ -64,7 +64,7 @@ class ControllerScreen extends StatelessWidget {
                 children: const [
                   Icon(
                     CupertinoIcons.arrowtriangle_up_circle_fill,
-                    size: 50,
+                    size: 25,
                   ),
                   Text(
                     'Haptic feedback    ',
@@ -75,7 +75,7 @@ class ControllerScreen extends StatelessWidget {
                   ),
                   Icon(
                     CupertinoIcons.smallcircle_fill_circle_fill,
-                    size: 50,
+                    size: 25,
                   ),
                   Text(
                     'Futuristic design    ',
@@ -94,7 +94,7 @@ class ControllerScreen extends StatelessWidget {
                 children: const [
                   Icon(
                     CupertinoIcons.stop_circle_fill,
-                    size: 50,
+                    size: 25,
                   ),
                   Text(
                     'Type C-fast charging ',
@@ -105,7 +105,7 @@ class ControllerScreen extends StatelessWidget {
                   ),
                   Icon(
                     CupertinoIcons.xmark_circle_fill,
-                    size: 50,
+                    size: 25,
                   ),
                   Text(
                     'Built in microphone',

@@ -65,7 +65,7 @@ class CameraScreen extends StatelessWidget {
                 children: const [
                   Icon(
                     CupertinoIcons.arrowtriangle_up_circle_fill,
-                    size: 50,
+                    size: 25,
                   ),
                   Text(
                     '1080p Capture      ',
@@ -76,7 +76,7 @@ class CameraScreen extends StatelessWidget {
                   ),
                   Icon(
                     CupertinoIcons.smallcircle_fill_circle_fill,
-                    size: 50,
+                    size: 25,
                   ),
                   Text(
                     'Built in stand    ',
@@ -95,7 +95,7 @@ class CameraScreen extends StatelessWidget {
                 children: const [
                   Icon(
                     CupertinoIcons.stop_circle_fill,
-                    size: 50,
+                    size: 25,
                   ),
                   Text(
                     'Background remover ',
@@ -106,7 +106,7 @@ class CameraScreen extends StatelessWidget {
                   ),
                   Icon(
                     CupertinoIcons.xmark_circle_fill,
-                    size: 50,
+                    size: 25,
                   ),
                   Text(
                     'wide-angle lenses',

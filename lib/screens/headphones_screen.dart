@@ -60,7 +60,7 @@ class MouseScreen extends StatelessWidget {
                 children: const [
                   Icon(
                     CupertinoIcons.arrowtriangle_up_circle_fill,
-                    size: 50,
+                    size: 25,
                   ),
                   Text(
                     'Dual hidden microphones',
@@ -71,7 +71,7 @@ class MouseScreen extends StatelessWidget {
                   ),
                   Icon(
                     CupertinoIcons.smallcircle_fill_circle_fill,
-                    size: 50,
+                    size: 25,
                   ),
                   Text(
                     'Easy-access controls',
@@ -90,7 +90,7 @@ class MouseScreen extends StatelessWidget {
                 children: const [
                   Icon(
                     CupertinoIcons.stop_circle_fill,
-                    size: 50,
+                    size: 25,
                   ),
                   Text(
                     'Fine-tuned for 3D Audio',
@@ -101,7 +101,7 @@ class MouseScreen extends StatelessWidget {
                   ),
                   Icon(
                     CupertinoIcons.xmark_circle_fill,
-                    size: 50,
+                    size: 25,
                   ),
                   Text(
                     'Wireless adaptor',

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ps5_neumorphic_app_ui/imports.dart';
 
-
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
   @override
@@ -16,9 +15,16 @@ class HomeScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const SizedBox(height: 50),
-              const Appbar(firstIcon: Icons.menu, secondIcon:  Icons.shopping_cart_outlined,),
+              const Appbar(
+                firstIcon: Icons.menu,
+                secondIcon: Icons.shopping_cart_outlined,
+              ),
               const SizedBox(height: 30),
-              const TitleText(titletext: 'Featured', subtitletext: 'Products', choosecolor: ConstantColors.blackcolor,),
+              const TitleText(
+                titletext: 'Featured',
+                subtitletext: 'Products',
+                choosecolor: ConstantColors.blackcolor,
+              ),
               const SizedBox(height: 40),
               const IconsWidget(),
               const SizedBox(height: 30),
