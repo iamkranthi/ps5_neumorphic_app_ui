@@ -1,16 +1,13 @@
-# ps5_neumorphic_app_ui
 
-A new Flutter project.
+# PS5 neumorphic design app
 
-## Getting Started
+This app is completey based on neumorphic Ui. 
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Flutter
+Dart
+Flutter plugins
+Lottie for splash screen
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
